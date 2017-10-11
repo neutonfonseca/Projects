@@ -1,0 +1,12 @@
+name: fatalities_across_us
+title: Fatalities_across_US
+username:
+account: neutonfonseca
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 223719
+bundleId: 1020414
+url: https://neutonfonseca.shinyapps.io/fatalities_across_us/
+when: 1507683030.64261
+asMultiple: FALSE
+asStatic: FALSE
