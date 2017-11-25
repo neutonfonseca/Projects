@@ -9,11 +9,11 @@ import csv
 urlforeachrest = pd.read_csv('seamlessurls.csv')
 driver = webdriver.Chrome()
 
-csv_file = open('seamlessreviews_fin1.csv', 'w')
+csv_file = open('seamlessreviews_final.csv', 'w')
 writer = csv.writer(csv_file)
 writer.writerow(['name', 'adress', 'city', 'phonenumber', 'price', 'overallrating', 'deliverytime', 'content', 'username', 'date', 'userratingeven', 'userratingodd' 'overallfood', 'overalldelivery', 'overallorder'])
 
-for url in urlforeachrest.url[:2000]:
+for url in urlforeachrest.url[:8484]:
 	driver.get(url)
 
 	index = 1
